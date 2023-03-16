@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no">
+    <title>ChopFull</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+
+<body>
+    <main class="main-container">
+        <div class="chat-interface">
+            <header class="top-section">
+           
+                <div class="text">
+                    <p class="restaurant-name">ChopFull</p>
+                  
+                </div>
+            </header>
+            <div class="message-container">
+            </div>
+            <form class="chatbot-form">
+                <div class="quick-options-container">
+                    <div class="quick-options">
+                        <div>1: Place Order</div>
+                        <div>99: Checkout Order</div>
+                        <div>98: Order History</div>
+                        <div>97: Current Order</div>
+                        <div>0: Cancel Order</div>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <input class="chat-input" placeholder="Type in a command..."/> 
+                    <button class="sendButton">
+                        Send
+                        <!-- <img class="sendImage" src="./sendIcon.png" /> -->
+                    </button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
