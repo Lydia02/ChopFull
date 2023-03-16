@@ -52,11 +52,11 @@ To start up the application, follow the following steps
 - Step 1: Open your terminal/CLI
 - Step 2: Clone the repository
     ```sh
-    git clone https://github.com/Lydia02/chopfulll.git
+    git clone this [repo](https://github.com/Lydia02/ChopFull.git) 
     ```
 - Step 3: Navigate into the project directory/folder
     ```sh
-    cd seefood/
+    cd chopFull/
     ```
 - Step 4: Switch to the dev branch to run locally
     ```sh
@@ -72,9 +72,7 @@ To start up the application, follow the following steps
     ```
 - Step 7: Open the url displayed on the terminal in your web browser and explore the application
 
-
-## Tasks
-The tasks expected to be achieved for the project are included [here](./Tasks.md)
+### Tools
 The tools used for creating the application include:
 
 - Client-side: HTML, CSS, JavaScript, and Socket.io-client
@@ -84,7 +82,7 @@ The tools used for creating the application include:
 
 
 ## Deployment
-Application is live at [ChopFull](https://choppfulli-ryww.onrender.com) 🚀🚀🚀
+Application is live at [ChopFull](https://chopfull-ryww.onrender.com) 🚀🚀🚀
 
 ## Author
 Lydia Ojoawo.

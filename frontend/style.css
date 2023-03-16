@@ -13,6 +13,9 @@ body {
    
     color:white;
   }
+  
+    /* color: rgb(245, 237, 244); */
+  
     
 
 .main-container {
@@ -196,7 +199,7 @@ background: var(--var-grey);
         transform: scale(1);
         opacity: 1;
     }
-}
+/* }
 @media screen and (max-width: 1023px) {
     body {
         background-color: black;
@@ -239,5 +242,58 @@ background: var(--var-grey);
     .quick-options {
         margin-left: 20px;
         margin-right: 20px;
+    }*/
+} 
+@media screen and (max-width: 1023px) {
+    body {
+    background-color: black;
     }
-}
+    .main-container {
+    display: block;
+    padding: 0px;
+    overflow: hidden;
+    }
+    .chat-interface {
+    border-radius: 0px;
+    box-shadow: none;
+    max-height: unset;
+    }
+    .top-section {
+    padding: 10px;
+    border-bottom: none;
+    }
+    .top-section .text {
+    font-size: 2rem;
+    }
+    .message-container {
+    padding: 0px;
+    }
+    .quick-options-container {
+    margin-top: 10px;
+    }
+    .quick-options {
+    margin-bottom: 10px;
+    }
+    .input-group {
+    padding-right: 0px;
+    }
+    .sendButton {
+    width: 100%;
+    margin-top: 10px;
+    }
+    }
+    @media only screen and (max-width: 767px) {
+        .quick-options {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        }
+        .quick-options div {
+        padding: 10px 15px;
+        font-size: 14px;
+        }
+        .quick-options div:active {
+        transform: scale(0.95);
+        }
+        }
