@@ -1,4 +1,4 @@
-# ChpFull
+# ChopFull
 
 A Real-Time resturant chatbot application to assist customers in placing orders for their preferred meals.
 
