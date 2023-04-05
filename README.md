@@ -82,7 +82,7 @@ The tools used for creating the application include:
 
 
 ## Deployment
-Application is live at [ChopFull](https://chopfull-ryww.onrender.com) 🚀🚀🚀
+Application is live at [ChopFull](https://chopfull.onrender.com/) 🚀🚀🚀
 
 ## Author
 Lydia Ojoawo.
